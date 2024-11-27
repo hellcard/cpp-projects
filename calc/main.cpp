@@ -66,6 +66,8 @@ int main(){
                 break;
             }
         }
+
+        // division
         if(operation == 4){
             res = division(a,b);
             check = print_res(res, &a, &choice);
